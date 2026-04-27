@@ -64,10 +64,11 @@ _(Coming Soon)_
 
 ## Repository Structure
 ```text
-├── data/               # Raw IEA and OWID CSVs (2024-2026)
-├── notebooks/          # Python scripts for EDA and Index calculation
-├── sql_queries/        # Scripts for data cleaning and table joins
-├── visualizations/     # Charts showing the Energy Security Gap
+├── data/               # Raw datasets from IEA, OWID, and World Bank
+├── cleaned/            # Data that has been processed via SQL/Python
+├── analysis/           # SQL scripts and Jupyter Notebooks (.ipynb)
+├── visualizations/     # Exported charts, maps, and PNGs
+├── report/             # Final summary of findings and policy insights
 └── README.md           # Project documentation
 ```
 
