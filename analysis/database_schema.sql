@@ -1,3 +1,4 @@
+</> SQL
 -- This table will house our cleaned energy security metrics
 CREATE TABLE energy_security_master (
   iso_code VARCHAR(3) PRIMARY KEY,
