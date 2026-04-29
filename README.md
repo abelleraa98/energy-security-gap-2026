@@ -1,12 +1,12 @@
-# The 2026 Energy Security Gap
+# The 2026 Energy Security Gap: Oil Chokepoint Exposure, Strategic Reserves, and Renewable Transition Speed. 
 
 ## Project Overview
-In February 2026, a major conflict in the Middle East led to the near-total closure of the Strait of Hormuz, disrupting 20% of the global energy supply. This project evaluates the **"Energy Security Gap"** – the vulnerability of nations based on their reliance on Middle Eastern oil and their speed of transition to renewable alternatives. It monitors how countries are "moving on" from oil to survive this historic supply shock. 
+In February 2026, a major conflict in the Middle East led to the near-total closure of the Strait of Hormuz, disrupting 20% of the global energy supply. This project evaluates the **"Energy Security Gap"** – the vulnerability of nations based on their reliance on Middle Eastern oil and their speed of transition to renewable alternatives. It monitors how countries are examining whether high-exposure countries are accelerating clean energy adoption and emergency demand-reduction policies in response to the 2026 supply shock.  
 
 ---
 
 ## Research Question
-> **How does a nation's level of exposure to Middle Eastern oil transit chokepoints correlate with the acceleration of its renewable energy adoption and the effectiveness of its emergency energy policies during the 2026 crisis?**
+> **How does exposure to Middle Eastern oil transit chokepoints relate to a country's emergency energy resilience, strategic reserve coverage, and renewable energy transition speed during the 2026 supply shock?**
 
 ### Secondary Questions
 * **Buffer Analysis:** Which countries' Strategic Petroleum Reserves (SPR) are most capable of sustaining their economies during the current 18-million-barrel-per-day global deficit?
@@ -16,10 +16,11 @@ In February 2026, a major conflict in the Middle East led to the near-total clos
 ---
 
 ## Variable Analyzed
-* **Hormuz Exposure Index:** % of national oil imports that pass through the Strait of Hormuz.
-* **Reserve Coverage:** Days of net-import coverage provided by the national Strategic Petroleum Reserves.
-* **Clean Energy Pivot:** YoY growth rate in TWh (Terawatt-hours) of solar and wind generation.
-* **Demand Reduction:** % change in national oil consumption post-February 2026.
+* **Oil Chokepoint Exposure:** % of national oil imports that pass through the Strait of Hormuz.
+* **Strategic Reserve Coverage:** Days of net-import coverage provided by the national Strategic Petroleum Reserves.
+* **Renewable Transition Speed:** YoY growth rate in TWh (Terawatt-hours) of solar and wind generation.
+* **Emergency Demand Response:** % change in national oil consumption post-February 2026.
+* **Energy Policy Response Score**
 
 ---
 
