@@ -1,7 +1,11 @@
 # The 2026 Energy Security Gap: Oil Chokepoint Exposure, Strategic Reserves, and Renewable Transition Speed. 
 
 ## Project Overview
-In February 2026, a major conflict in the Middle East led to the near-total closure of the Strait of Hormuz, disrupting 20% of the global energy supply. This project evaluates the **"Energy Security Gap"** – the vulnerability of nations based on their reliance on Middle Eastern oil and their speed of transition to renewable alternatives. It monitors how countries are examining whether high-exposure countries are accelerating clean energy adoption and emergency demand-reduction policies in response to the 2026 supply shock.  
+In February 2026, a major conflict in the Middle East led to the near-total closure of the Strait of Hormuz, disrupting approximately 20% of the global oil supply.
+
+This project evaluates the **"Energy Security Gap"** - the vulnerability of nations based on their reliance on Middle Eastern oil and their ability to respond through strategic reserves and short-term demand adjustments.
+
+Using 2023-2024 national energy data as a proxy for pre-crisis conditions, this analysis explores whether countries with higher exposure to oil supply disruptions demonstrate stronger resilience behaviors, including reduce oil consumption, increased renewable adoption, or reliance on strategic reserves.
 
 ---
 
@@ -16,11 +20,10 @@ In February 2026, a major conflict in the Middle East led to the near-total clos
 ---
 
 ## Variable Analyzed
-* **Oil Chokepoint Exposure:** % of national oil imports that pass through the Strait of Hormuz.
-* **Strategic Reserve Coverage:** Days of net-import coverage provided by the national Strategic Petroleum Reserves.
-* **Renewable Transition Speed:** YoY growth rate in TWh (Terawatt-hours) of solar and wind generation.
-* **Emergency Demand Response:** % change in national oil consumption post-February 2026.
-* **Energy Policy Response Score**
+* **Oil Exposure (%):** Estimated share of national oil consumption dependent on imports vulnerable to Middle Eastern supply disruptions.
+* **Strategic Reserve Coverage (SPR Days):** Number of days a country can sustain oil demand using stored reserves.
+* **Renewable Growth (%):** Year-over-year change in renewable electricity generation.
+* **Oil Consumption Change (%):** Short-term change in national oil demand.
 
 ---
 
@@ -32,9 +35,9 @@ In February 2026, a major conflict in the Middle East led to the near-total clos
 ---
 
 ## Tools Used
-* **SQL:** For data modeling, joining trade flow datasets, and calculating the Resilience Index.
-* **Python (Pandas/Matplotlib):** For time-series analysis of oil price spikes ($150/bbl) vs. renewable investment.
-* **GitHub:** For documentation and version control.
+* **SQL:** Data modeling, filtering, and grouping for exposure and behavior analysis.
+* **Python (Pandas, Matplotlib):** Data cleaning and visualization (scatter plots, bar charts).
+* **GitHub:** Documentation and version control.
 
 --- 
 
@@ -47,19 +50,49 @@ In February 2026, a major conflict in the Middle East led to the near-total clos
 ---
 
 ## Key Visualizations
-_(Coming Soon)_
-* Global Map of Oil Chokepoint Exposure vs SPR Levels.
-* The "Resilience Gap" Scatter Plot: Import Reliance vs. Renewable Growth.
+* **Oil Exposure by Country (Bar Chart):** Highlights which countries are most vulnerable to supply disruptions.
+* **Oil Consumption Change by Country (Bar Chart):** Shows how countries adjusted demand in response to energy pressures.
+* **Oil Exposure vs Oil Consumption Change (Scatter Plot):** Examines whether higher exposure leads to stronger demand reduction.
 
 ---
 
 ## Key Findings
-_(Coming Soon)_
+
+1. **Oil Exposure is Highly Concentrated**
+   - Countries such as Japan and South Korea show extremely high exposure (~90%), while the United States, Canada, and Brazil exhibit near-zero exposure due to domestic production.
+
+2. **High Exposure Does Not Guarantee Demand Reduction**
+   - Japan significantly reduced oil consumption (~-5%), but other highly exposed countries like India and South Korea increased consumption.
+   - This suggests that exposure alone does not drive immediate behavioral change.
+
+3. **Weak Relationship Between Exposure and Behavior**
+   - Scatter plot analysis shows no consistent correlation between oil exposure and short-term changes in oil demand.
+   - Countries respond differently based on internal economic structure, not just external risk.
+
+4. **Strategic Reserves Play a Critical Role**
+   - Highly exposed countries (Japan, South Korea) maintain large strategic reserves, indicating reliance on stored capacity rather than rapid demand reduction.
+
+5. **Short-Term Response Favors Stability Over Transition**
+   - Countries primarily rely on existing infrastructure (reserves and supply chains) rather than accelerating renewable energy adoption in the immediate term.
 
 ---
 
 ## Recommendations
-_(Coming Soon)_
+
+1. **Increase Strategic Reserve Capacity in High-Exposure Countries**
+   - Countries with high import dependence but low reserve coverage (e.g., India) remain highly vulnerable.
+
+2. **Diversify Energy Supply Chains**
+   - Reducing reliance on single-region imports can significantly improve resilience.
+
+3. **Invest in Long-Term Renewable Infrastructure**
+   - While renewables do not provide immediate crisis response, they reduce structural vulnerability over time.
+
+4. **Develop Rapid Demand-Response Policies**
+   - Behavioral and policy tools (e.g., fuel restrictions, efficiency measures) are necessary to complement physical reserves.
+
+5. **Align Crisis Planning with Energy Transition Goals**
+   - Current responses prioritize stability, but future strategies should integrate both resilience and decarbonization.
 
 ---
 
